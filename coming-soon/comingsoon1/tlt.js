@@ -9,7 +9,7 @@ $('.tlt').textillate({
     // set the delay factor applied to each consecutive character
     delayScale: 1.5,
     // set the delay between each character
-    delay: 350,
+    delay: 450,
     sequence: true
   },
   // out animation settings.
