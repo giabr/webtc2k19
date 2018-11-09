@@ -10,7 +10,7 @@ $('.tlt').textillate({
     delayScale: 1.5,
     // set the delay between each character
     delay: 350,
-    shuffle: true
+    sequence: true
   },
   // out animation settings.
   out: {
