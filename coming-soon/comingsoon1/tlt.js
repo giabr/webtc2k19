@@ -4,7 +4,7 @@ $('.tlt').textillate({
 	initialDelay: 0,
 	autoStart: true,
 	in: {
-  	// set the effect name
+  	// set the effect name 
     effect: 'fadeInUp',
     // set the delay factor applied to each consecutive character
     delayScale: 1.5,
