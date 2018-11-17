@@ -1,10 +1,36 @@
 /* ---- reset ---- */
 body {
     margin: 0;
-}
-h1{
+    padding: 0;
     font-family: 'Squada One', cursive;
-    color: aliceblue;
-    font-size: 120px;
+    font-size: 50px;
+}
+
+.soon {
+    color: white;
+    position: absolute;
     text-align: center;
+    top: 10%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+}
+
+h1 {
+    color: #F7EB23;
 }
