@@ -1,0 +1,21 @@
+/* ---- reset ---- */
+body {
+    margin: 0;
+}
+h1{
+    font-family: 'Squada One', cursive;
+    color: aliceblue;
+    font-size: 120px;
+    text-align: center;
+}
+/* ---- particles.js container ---- */
+#particles-js {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    background-image: url("/public/img/logo.png");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 50% 50%;
+}

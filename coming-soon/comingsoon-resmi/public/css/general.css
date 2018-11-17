@@ -1,0 +1,10 @@
+/* ---- reset ---- */
+body {
+    margin: 0;
+}
+h1{
+    font-family: 'Squada One', cursive;
+    color: aliceblue;
+    font-size: 120px;
+    text-align: center;
+}
