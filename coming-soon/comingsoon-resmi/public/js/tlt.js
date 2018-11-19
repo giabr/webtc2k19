@@ -5,7 +5,7 @@ $('.tlt').textillate({
 	autoStart: true,
 	in: {
   	// set the effect name 
-    effect: 'fadeInUp',
+    effect: 'fadeInRightBig',
     // set the delay factor applied to each consecutive character
     delayScale: 1.5,
     // set the delay between each character
@@ -14,9 +14,9 @@ $('.tlt').textillate({
   },
   // out animation settings.
   out: {
-    effect: 'fadeOutDown',
+    effect: 'fadeOutLeftBig',
     delayScale: 1.5,
     delay: 150,
-    shuffle: true,
+    sequence: true,
   }
 });

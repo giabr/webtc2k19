@@ -2,14 +2,16 @@
 <html>
 
 <head>
-	<title></title>
+	<title>Technocorner UGM 2019</title>
+	<link rel="icon" type="image/png" href="img/logo.png" />
 
 	<!-- FONT -->
 	<link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
 
 	<!-- CSS Particle -->
 	<link rel="stylesheet" type="text/css" href="assets/animate.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+	 crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/general.css">
 
 	<!-- JS Text -->
@@ -21,17 +23,36 @@
 <body>
 	<div id="particles-js">
 		<div class="soon">
-			<img src="/public/img/logo.png" alt="">
-			<h1>COOMING SOON</h1>
+			<img id="logo-tc" src="/public/img/logo.png" alt="">
+			<h2>TECHNOCORNER 2019</h2>
+			<h3 id="lomba-display"> </h3>
+			<h1 class="tlt">COOMING SOON</h1>
 		</div>
 	</div>
-	<ul>
-		<li><a href="https://www.facebook.com/profile.php?id=100012512077239"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-		<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-		<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-		<li><a href="https://www.linkedin.com/in/raj-kumar-web-designer/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-		<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-	</ul>
+	<div class="row">
+		<div class="column" id="lomba">
+			<ul class="lomba-tc">
+				<li id="eec" onmouseenter="eec(this)" onmouseleave="out(this)"><img src="img/eec.png" alt="Electrical Engineering Competition"></li>
+				<li id="iot" onmouseenter="iot(this)" onmouseleave="out(this)"><img src="img/iot.png" alt="Internet of Things Competition"></li>
+				<li id="macbot" onmouseenter="macbot(this)" onmouseleave="out(this)"><img src="img/macbot.png" alt="MachBot Competition"></li>
+				<li id="soccer" onmouseenter="soccer(this)" onmouseleave="out(this)"><img src="img/soccer.png" alt="SoccerBot Competition"></li>
+				<li id="sumo" onmouseenter="sumo(this)" onmouseleave="out(this)"><img src="img/sumo.png" alt="SumoBot Competition"></li>
+
+			</ul>
+		</div>
+		<div class="column" id="sosmed">
+				<ul class="social">
+					<li><a href="https://www.facebook.com/TechnocornerUGM/?__xts__%5B0%5D=68.ARCsneRgpOktdZJZFQlLhjFCyC52B9TQ3ShOYR4t-020ZRAmw1al9DvQA3De8TIZRmPDh_QSZcTAc-AXo1y2hGo4jzivmUUyOu5w19EakRA1S-EpbvQtzDJ2V310jlpEEZ1q0luWNu6xWBP4nJLIHHRbgga-k1fwcJXN875tYMZaz8rdMplBGdMVc5INAMPvMWbEGgDmh1vTOnFwVSZBlXo83zQ&__xts__%5B1%5D=68.ARBL7PMz6M_PEbWKiqn8-zZ2a-w-uixw4Sq1Hk5jW43-bkzWZjNuD0AaTnovQSBRY_LdNFqSRRcBmuNnMqVuVTckreZhGMjHULSzo3L8AVfEzKPhHNyDXzqenGv75UAbVmmf_S7BgEkWWGcqr-Cz93qiJWoeNirFJPi7npOF12d1XC8MVEcOC7iGmmOWEd9NRxIsHNiVf0Eq6vvnF8k4x7wRpQ8&__xts__%5B2%5D=68.ARAeczlrWCfpL87dtj-dn-faLQoiwTAQgoz7jpm3iQ92fwNzk1O3dFQLJTXvYwhJMOTFzomNVlwys3I3CGpaBHb2RKcRMcL5SLjNElXkOL7x93MUIJ-WqqpzgwX9V4LmHjQ_GxSrDWraR0CTKPVkcdB_pzVyfthB_9ERvpr_BsqgMZ1KXnqKH_lHfhE8N8KcxC3_g_M-f_gNhGuhBwuz2B0thytSm0K7Qtdo&hc_ref=ARQppnuhqSNXJi7RF1wWRg3WEa5gaQi2aFVoeJsNnKI5h0wKWuqjEC3uKK7_iG5QSIg&fref=nf&__tn__=kC-R"
+						 target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="https://twitter.com/technocornerUGM" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="http://line.me/ti/p/@kdo2899c" target="_blank"><i class="fab fa-line" aria-hidden="true"></i></a></li>
+					<li><a href="https://www.youtube.com/channel/UC0T3ca79_Db-q9sHXTYeXIg" target="_blank"><i class="fab fa-youtube"
+							 aria-hidden="true"></i></a></li>
+					<li><a href="https://www.instagram.com/technocornerugm/?hl=en" target="_blank"><i class="fab fa-instagram"
+							 aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+	</div>
 
 	<!-- stats - count particles -->
 	<!-- <div class="count-particles"> <span class="js-count-particles">--</span> particles </div> -->
@@ -39,6 +60,7 @@
 	<!-- JS -->
 	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 	<script type="text/javascript" src="js/particle.js"></script>
+	<script type="text/javascript" src="js/display.js"></script>
 
 	<!-- Text -->
 	<script type="text/javascript" src="js/tlt.js"></script>
