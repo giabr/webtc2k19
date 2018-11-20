@@ -2,17 +2,24 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Replay;
+    font-family: replay;
 }
 
 /* Font */
 @font-face {
-    font-family: Replay;
-    src: url(/public/assets/replay.ttf)
+    font-family: replay;
+    src: url('../assets/font/replay-webfont.woff2') format('woff2'),
+         url('../assets/font/replay-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
-@font-face{
-    font-family: Nexa;
-    src: url(/public/assets/nexa.otf)
+@font-face {
+    font-family: nexa;
+    src: url('../assets/font/nexa-webfont.woff2') format('woff2'),
+         url('../assets/font/nexa-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .soon {
@@ -159,7 +166,7 @@ img {
 h3{
     color: #FBB12F;
     font-size: 50px;
-    font-family: Nexa;
+    font-family: nexa;
 }
 @media (max-width:767px) {
     h3 {
